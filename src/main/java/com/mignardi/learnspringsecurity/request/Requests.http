@@ -1,0 +1,19 @@
+POST http://localhost:8080/register/user
+Content-Type: application/json
+
+{
+  "username": "emignardi",
+  "password": "1234",
+  "role": "USER"
+}
+
+###
+
+POST http://localhost:8080/register/user
+Content-Type: application/json
+
+{
+  "username": "admin",
+  "password": "1234",
+  "role": "ADMIN,USER"
+}
